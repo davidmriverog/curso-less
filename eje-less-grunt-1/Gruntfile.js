@@ -4,8 +4,8 @@ module.exports = function(grunt) {
   grunt.initConfig({
     uglify: {
       dist: {
-        src: 'src/js/suma.js',
-        dest: 'dist/js/suma.min.js'
+        src: ['src/js/suma.js','src/js/resta.js'],
+        dest: 'dist/js/operations.min.js'
       }
     }
   });
